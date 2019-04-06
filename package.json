@@ -1,0 +1,25 @@
+{
+  "name": "app-tasklist",
+  "version": "1.0.0",
+  "description": "Tasklist Web application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mateusmforte@bitbucket.org/mateusmforte/app-tasklist.git"
+  },
+  "author": "Mateus Moura Forte",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mateusmforte/app-tasklist#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}

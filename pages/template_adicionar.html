@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/adicionar.css">
+    <title>TaskList App</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <ul class="user-actions">
+                <li class="action" id="nova-task"><a href="#">Nova Tarefa</a></li>
+                <li class="action" id="visualizar-task"><a href="#">Visualizar Tarefas</a></li>
+             </ul>
+            <div class="user-profile">
+                <span>Usuário</span>
+                <i><></i>
+                <img src="" id="imagem-usuario">
+            </div>
+        </nav>
+    </header>
+    <main class="content">
+        <h1>Adicionar Tarefa</h1>
+        <form>
+            <label for="name-task" class="field">
+                Nome da Tarefa
+                <input type="text" name="name-task" id="name-task"/>
+            </label>
+            <label for="description-task" class="field">
+                Descrição da Tarefa
+                <textarea id="description-task" name="description-task" placeholder="O que é exatamente essa tarefa?"></textarea>
+            </label>
+            <label for="date-task" class="field">
+                Dia:
+                <input type="date" id="date-task" name="date-task"/>
+            </label>
+            <label for="hour-task" class="field"> 
+                    Hora:
+                    <input type="time" id="hour-task" name="hour-task"/>
+            </label>
+            <div class="buttons-block">  
+                 <button id="create-task">
+                    Criar Tarefa
+                </button>
+                <button id="delete-task">
+                    Descartar
+                </button>
+            </div>
+          
+        </form>
+    </main>
+</body>
+</html>
